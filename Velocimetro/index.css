@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: brown;
+    color: white;
+    font-family: arial;
+}
+
+#velocimetro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#vel{
+    border: solid 3px black;
+    border-radius: 10px;
+    width: 15vw;
+    height: 3vh;
+    text-align: center;
+}
+
+#envia{
+    width: 8vw;
+    margin: 4%;
+    background-color: black;
+    color: white;
+}

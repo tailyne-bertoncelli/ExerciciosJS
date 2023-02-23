@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(76, 197, 206);
+}
+
+.pagina{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 2%;
+    box-shadow: 5px 10px 18px black;
+    color: black;
+}
+
+.resultado{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#foto{
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+}
+
+.Enviar{
+    display: flex;
+    justify-content: center;
+}
+
+#BotaoEnvia{
+    background-color: white;
+    width: 10vw;
+    border-radius: 15px;
+    padding: 1%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#BotaoEnvia:hover{
+    background-color: rgb(31, 212, 101);
+}

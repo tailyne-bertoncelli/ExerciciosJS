@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgb(42, 157, 165);
+    color: white;
+    font-family: arial;
+}
+
+#campos{
+    background-color: white;
+    border-radius: 20px;
+    width: 250px;
+    color: black;
+    padding: 2%;
+
+}
+
+label, input{
+    margin: 1%;
+}

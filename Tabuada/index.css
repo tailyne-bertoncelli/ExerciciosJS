@@ -1,0 +1,25 @@
+body{
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: arial;
+    color: white;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: white;
+    border-radius: 20px;
+    width: 30vw;
+    padding: 20px;
+    color: black;
+}
+
+div{
+    margin: 2%;
+}
